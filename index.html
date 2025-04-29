@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>321 Clementi - Leasing Information</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+    body,td,th {
+        /* Using the linked CSS font-family instead */
+        /* font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>321 Clementi - Units for Lease</h1>
+        <nav id="level-selector">
+            <button class="level-button active" data-level="1">Level 1</button>
+            <button class="level-button" data-level="2">Level 2</button>
+            <button class="level-button" data-level="3">Level 3</button>
+            <button class="level-button" data-level="4">Level 4</button>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div id="floor-plan-area">
+            <div id="level-1" class="floor-plan active">
+                <div class="plan-container">
+                    
+                    <img src="images/level-1.png" alt="Level 1 Floor Plan" class="clickable-plan">
+                </div>
+            </div>
+            <div id="level-2" class="floor-plan">
+                <div class="plan-container">
+                    <img src="images/level-2.png" alt="Level 2 Floor Plan" class="clickable-plan">
+                </div>
+            </div>
+            <div id="level-3" class="floor-plan">
+                <div class="plan-container">
+                    <img src="images/level-3.png" alt="Level 3 Floor Plan" class="clickable-plan">
+                </div>
+            </div>
+            <div id="level-4" class="floor-plan">
+                <div class="plan-container">
+                    <img src="images/level-4.png" alt="Level 4 Floor Plan" class="clickable-plan">
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="unit-button-container">
+          <div id="level-1-buttons" class="unit-buttons active">
+            
+            <button type="button" class="unit-selector-button available"
+                    data-unit-id="L1-01" data-status="Available" data-area="150 sqm"
+                    data-water="Available" data-ac-power="15 kW" data-other="Corner unit, high foot traffic"
+                    data-detail-plan="images/details/L1-01-detail.png" data-unit-no="L1-01"
+                    data-fcu-units="2" data-elec-isolator="Yes" data-elec-phase="3-Phase"
+                    data-emergency-light="3" data-exit-signage="2" data-pa-speaker="1"
+                    data-fibre-port="Yes" data-data-port="4" data-water-pipe-dia="40mm"
+                    data-floor-trap="2" data-gas-pipe="Available" data-kitchen-ea="Yes"
+                    data-kitchen-fa="Yes" data-sprinkler="Yes">L1-01</button>
+            <button type="button" class="unit-selector-button available"
+                    data-unit-id="L1-01A" data-status="Available" data-area="150 sqm"
+                    data-water="Available" data-ac-power="15 kW" data-other="Corner unit, high foot traffic"
+                    data-detail-plan="images/details/L1-01-detail.png" data-unit-no="L1-01A"
+                    data-fcu-units="2" data-elec-isolator="Yes" data-elec-phase="3-Phase"
+                    data-emergency-light="4" data-exit-signage="2" data-pa-speaker="1"
+                    data-fibre-port="Yes" data-data-port="5" data-water-pipe-dia="40mm"
+                    data-floor-trap="2" data-gas-pipe="Available" data-kitchen-ea="Yes"
+                    data-kitchen-fa="Yes" data-sprinkler="Yes">L1-01A</button>
+            <button type="button" class="unit-selector-button leased"
+                    data-unit-id="L1-02" data-status="Leased" data-area="200 sqm"
+                    data-water="Available" data-ac-power="20 kW" data-other="Near escalator"
+                    data-detail-plan="images/details/L1-02-detail.png" data-unit-no="L1-02"
+                    data-fcu-units="3" data-elec-isolator="Yes" data-elec-phase="3-Phase"
+                    data-emergency-light="2" data-exit-signage="1" data-pa-speaker="1"
+                    data-fibre-port="Yes" data-data-port="6" data-water-pipe-dia="50mm"
+                    data-floor-trap="3" data-gas-pipe="Available" data-kitchen-ea="Yes"
+                    data-kitchen-fa="Yes" data-sprinkler="Yes">L1-02</button>
+            <button type="button" class="unit-selector-button leased"
+                    data-unit-id="L1-02" data-status="Leased" data-area="200 sqm"
+                    data-water="Available" data-ac-power="20 kW" data-other="Near escalator"
+                    data-detail-plan="images/details/L1-02-detail.png" data-unit-no="L1-02"
+                    data-fcu-units="3" data-elec-isolator="Yes" data-elec-phase="3-Phase"
+                    data-emergency-light="2" data-exit-signage="1" data-pa-speaker="1"
+                    data-fibre-port="Yes" data-data-port="6" data-water-pipe-dia="50mm"
+                    data-floor-trap="3" data-gas-pipe="Available" data-kitchen-ea="Yes"
+                    data-kitchen-fa="Yes" data-sprinkler="Yes">L1-02</button>
+<button type="button" class="unit-selector-button available"
+                    data-unit-id="L1-03" data-status="Available" data-area="180 sqm"
+                    data-water="Available" data-ac-power="18 kW" data-other="Good visibility from entrance"
+                    data-unit-no="L1-03" data-fcu-units="2" data-elec-isolator="Yes"
+                    data-elec-phase="3-Phase" data-emergency-light="3" data-exit-signage="2"
+                    data-pa-speaker="1" data-fibre-port="Yes" data-data-port="5"
+                    data-water-pipe-dia="40mm" data-floor-trap="2" data-gas-pipe="Available"
+                    data-kitchen-ea="Yes" data-kitchen-fa="Yes" data-sprinkler="Yes">L1-03</button>
+          </div>
+          
+           <div id="level-2-buttons" class="unit-buttons">
+                {/* Add L2 buttons here */}
+                <p style="text-align: center; color: #666;">No units defined for this level yet.</p>
+           </div>
+           <div id="level-3-buttons" class="unit-buttons">
+                {/* Add L3 buttons here */}
+                <p style="text-align: center; color: #666;">No units defined for this level yet.</p>
+           </div>
+           <div id="level-4-buttons" class="unit-buttons">
+                {/* Add L4 buttons here */}
+                <p style="text-align: center; color: #666;">No units defined for this level yet.</p>
+           </div>
+        </div>
+
+        
+        <aside id="unit-details-panel">
+          <h2>Unit Details</h2>
+            <div id="details-content">
+              <p>Select a unit button above to see its details.</p>
+              {/* Details grid and download buttons added dynamically */}
+              <div id="download-button-container"></div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year">2025</span> Eng Wah Global Ptd Ltd. All rights reserved.</p> <p>For leasing enquiries, please contact: contact@engwah.com.sg</p>
+    </footer>
+
+    {/* Magnify Modal Structure */}
+    <div id="magnify-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="magnified-img" src="" alt="Magnified Floor Plan">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
