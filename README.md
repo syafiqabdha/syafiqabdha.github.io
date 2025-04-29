@@ -1,1 +1,0 @@
-# syafiqabdha.github.io
